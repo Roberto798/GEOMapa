@@ -1,0 +1,2 @@
+# GEOMapa
+GEO proiekturako errepositorioa
