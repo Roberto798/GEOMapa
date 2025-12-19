@@ -1,0 +1,2878 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "municipio": "Basauri",
+                "year_columns": {
+                    "24": 2024,
+                    "25": 2025
+                },
+                "datos": {
+                    "homicidio_y_sus_formas": {
+                        "total": {
+                            "24": 4,
+                            "25": null
+                        },
+                        "homicidio_doloso_asesinato_consumado_UE": {
+                            "24": null,
+                            "25": null
+                        },
+                        "homicidio_doloso_asesinato_tentativa_UE": {
+                            "24": 4,
+                            "25": null
+                        },
+                        "otras_infracciones_homicidio": {
+                            "24": null,
+                            "25": null
+                        }
+                    },
+                    "lesiones": {
+                        "total": {
+                            "24": 81,
+                            "25": 102
+                        },
+                        "malos_tratos_en_el_ambito_familiar": {
+                            "24": 20,
+                            "25": 32
+                        },
+                        "lesiones": {
+                            "24": 55,
+                            "25": 65
+                        },
+                        "otras_infracciones_de_lesiones": {
+                            "24": 6,
+                            "25": 5
+                        }
+                    },
+                    "tortura_y_contra_la_integridad": {
+                        "total": {
+                            "24": 66,
+                            "25": 38
+                        },
+                        "malos_tratos_habituales_en_el_ambito_familiar": {
+                            "24": 63,
+                            "25": 35
+                        },
+                        "otras_infracciones_tortura_integridad": {
+                            "24": 3,
+                            "25": 3
+                        }
+                    },
+                    "contra_la_libertad_sexual_UE": {
+                        "total": {
+                            "24": 5,
+                            "25": 7
+                        },
+                        "agresion_sexual": {
+                            "24": 4,
+                            "25": 5
+                        },
+                        "otras_infracciones_contra_la_libertad_sexual": {
+                            "24": 1,
+                            "25": 2
+                        }
+                    },
+                    "contra_el_patrimonio_y_el_orden_socioeconomico": {
+                        "total": {
+                            "24": 666,
+                            "25": 650
+                        },
+                        "hurto_UE": {
+                            "24": 370,
+                            "25": 406
+                        },
+                        "robo_con_fuerza_en_las_cosas_total": {
+                            "24": 90,
+                            "25": 76
+                        },
+                        "robo_con_fuerza_en_las_cosas_en_vivienda_UE_1": {
+                            "24": 23,
+                            "25": 25
+                        },
+                        "robo_con_fuerza_en_las_cosas_en_domicilio": {
+                            "24": 16,
+                            "25": 18
+                        },
+                        "robo_con_fuerza_en_otras_dependencias_anexos_vivienda": {
+                            "24": 7,
+                            "25": 7
+                        },
+                        "robo_con_fuerza_en_empresas": {
+                            "24": 2,
+                            "25": 2
+                        },
+                        "robo_con_fuerza_en_comercios_y_otros_esp_cerrados": {
+                            "24": 20,
+                            "25": 9
+                        },
+                        "robo_con_fuerza_en_las_cosas_en_otros_lugares": {
+                            "24": 45,
+                            "25": 40
+                        },
+                        "robo_con_violencia_o_intimidacion_UE": {
+                            "24": 16,
+                            "25": 12
+                        },
+                        "danos": {
+                            "24": 104,
+                            "25": 95
+                        },
+                        "sustraccion_de_vehiculos_a_motor_UE": {
+                            "24": 11,
+                            "25": 7
+                        },
+                        "estafa": {
+                            "24": 43,
+                            "25": 27
+                        },
+                        "otras_infracciones_contra_el_patrimonio": {
+                            "24": 32,
+                            "25": 27
+                        }
+                    },
+                    "contra_la_seguridad_colectiva": {
+                        "total": {
+                            "24": 30,
+                            "25": 21
+                        },
+                        "salud_publica_trafico_de_drogas_UE": {
+                            "24": 10,
+                            "25": 7
+                        },
+                        "conducir_bajo_influencia_alcohol_drogas": {
+                            "24": 6,
+                            "25": 3
+                        },
+                        "otras_infracciones_seguridad_colectiva": {
+                            "24": 14,
+                            "25": 11
+                        }
+                    },
+                    "otras_infracciones_penales": {
+                        "24": 130,
+                        "25": 108
+                    },
+                    "total_infracciones_presenciales": {
+                        "24": 982,
+                        "25": 926
+                    },
+                    "tasa_x_1000_hab_presenciales": {
+                        "24": 24.28,
+                        "25": 22.89
+                    },
+                    "delitos_informaticos": {
+                        "total": {
+                            "24": 394,
+                            "25": 312
+                        },
+                        "estafas_informaticas": {
+                            "24": 349,
+                            "25": 277
+                        },
+                        "ciberfalsificaciones": {
+                            "24": 13,
+                            "25": 8
+                        },
+                        "ciberamenazas_y_cibercoacciones": {
+                            "24": 13,
+                            "25": 11
+                        },
+                        "descubrimiento_y_revelacion_de_secretos": {
+                            "24": 3,
+                            "25": 1
+                        },
+                        "ciberdelitos_sexuales": {
+                            "24": null,
+                            "25": 1
+                        },
+                        "ciberataques_informaticos": {
+                            "24": 6,
+                            "25": null
+                        },
+                        "otros_delitos_informaticos": {
+                            "24": 10,
+                            "25": 14
+                        }
+                    },
+                    "total_ciberdelincuencia": {
+                        "24": 394,
+                        "25": 312
+                    },
+                    "tasa_x_1000_hab_ciberdelincuencia": {
+                        "24": 9.74,
+                        "25": 7.71
+                    },
+                    "total_infracciones_penales": {
+                        "24": 1376,
+                        "25": 1238
+                    },
+                    "tasa_x_1000_hab_total_penal": {
+                        "24": 34.02,
+                        "25": 30.61
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.891454,
+                    43.235334
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "municipio": "Durango",
+                "year_columns": {
+                    "24": 2024,
+                    "25": 2025
+                },
+                "datos": {
+                    "homicidio_y_sus_formas": {
+                        "total": {
+                            "24": 1,
+                            "25": null
+                        },
+                        "homicidio_doloso_asesinato_consumado_UE": {
+                            "24": null,
+                            "25": null
+                        },
+                        "homicidio_doloso_asesinato_tentativa_UE": {
+                            "24": null,
+                            "25": null
+                        },
+                        "otras_infracciones_homicidio": {
+                            "24": 1,
+                            "25": null
+                        }
+                    },
+                    "lesiones": {
+                        "total": {
+                            "24": 69,
+                            "25": 97
+                        },
+                        "malos_tratos_en_el_ambito_familiar": {
+                            "24": 36,
+                            "25": 54
+                        },
+                        "lesiones": {
+                            "24": 29,
+                            "25": 38
+                        },
+                        "otras_infracciones_de_lesiones": {
+                            "24": 4,
+                            "25": 5
+                        }
+                    },
+                    "tortura_y_contra_la_integridad": {
+                        "total": {
+                            "24": 7,
+                            "25": 9
+                        },
+                        "malos_tratos_habituales_en_el_ambito_familiar": {
+                            "24": 4,
+                            "25": 8
+                        },
+                        "otras_infracciones_tortura_integridad": {
+                            "24": 3,
+                            "25": 1
+                        }
+                    },
+                    "contra_la_libertad_sexual_UE": {
+                        "total": {
+                            "24": 6,
+                            "25": 7
+                        },
+                        "agresion_sexual": {
+                            "24": 6,
+                            "25": 7
+                        },
+                        "otras_infracciones_contra_la_libertad_sexual": {
+                            "24": null,
+                            "25": null
+                        }
+                    },
+                    "contra_el_patrimonio_y_el_orden_socioeconomico": {
+                        "total": {
+                            "24": 316,
+                            "25": 294
+                        },
+                        "hurto_UE": {
+                            "24": 147,
+                            "25": 151
+                        },
+                        "robo_con_fuerza_en_las_cosas_total": {
+                            "24": 71,
+                            "25": 75
+                        },
+                        "robo_con_fuerza_en_las_cosas_en_vivienda_UE_1": {
+                            "24": 40,
+                            "25": 50
+                        },
+                        "robo_con_fuerza_en_las_cosas_en_domicilio": {
+                            "24": 30,
+                            "25": 33
+                        },
+                        "robo_con_fuerza_en_otras_dependencias_anexos_vivienda": {
+                            "24": 10,
+                            "25": 17
+                        },
+                        "robo_con_fuerza_en_empresas": {
+                            "24": 1,
+                            "25": 1
+                        },
+                        "robo_con_fuerza_en_comercios_y_otros_esp_cerrados": {
+                            "24": 9,
+                            "25": 12
+                        },
+                        "robo_con_fuerza_en_las_cosas_en_otros_lugares": {
+                            "24": 21,
+                            "25": 12
+                        },
+                        "robo_con_violencia_o_intimidacion_UE": {
+                            "24": 9,
+                            "25": 3
+                        },
+                        "danos": {
+                            "24": 64,
+                            "25": 38
+                        },
+                        "sustraccion_de_vehiculos_a_motor_UE": {
+                            "24": 5,
+                            "25": 1
+                        },
+                        "estafa": {
+                            "24": 9,
+                            "25": 9
+                        },
+                        "otras_infracciones_contra_el_patrimonio": {
+                            "24": 11,
+                            "25": 17
+                        }
+                    },
+                    "contra_la_seguridad_colectiva": {
+                        "total": {
+                            "24": 34,
+                            "25": 17
+                        },
+                        "salud_publica_trafico_de_drogas_UE": {
+                            "24": 15,
+                            "25": 6
+                        },
+                        "conducir_bajo_influencia_alcohol_drogas": {
+                            "24": 9,
+                            "25": 5
+                        },
+                        "otras_infracciones_seguridad_colectiva": {
+                            "24": 10,
+                            "25": 6
+                        }
+                    },
+                    "otras_infracciones_penales": {
+                        "24": 86,
+                        "25": 62
+                    },
+                    "total_infracciones_presenciales": {
+                        "24": 519,
+                        "25": 486
+                    },
+                    "tasa_x_1000_hab_presenciales": {
+                        "24": 17.35,
+                        "25": 16.25
+                    },
+                    "delitos_informaticos": {
+                        "total": {
+                            "24": 262,
+                            "25": 228
+                        },
+                        "estafas_informaticas": {
+                            "24": 236,
+                            "25": 192
+                        },
+                        "ciberfalsificaciones": {
+                            "24": 3,
+                            "25": 19
+                        },
+                        "ciberamenazas_y_cibercoacciones": {
+                            "24": 11,
+                            "25": 5
+                        },
+                        "descubrimiento_y_revelacion_de_secretos": {
+                            "24": 1,
+                            "25": 2
+                        },
+                        "ciberdelitos_sexuales": {
+                            "24": null,
+                            "25": null
+                        },
+                        "ciberataques_informaticos": {
+                            "24": 2,
+                            "25": null
+                        },
+                        "otros_delitos_informaticos": {
+                            "24": 9,
+                            "25": 10
+                        }
+                    },
+                    "total_ciberdelincuencia": {
+                        "24": 262,
+                        "25": 228
+                    },
+                    "tasa_x_1000_hab_ciberdelincuencia": {
+                        "24": 8.76,
+                        "25": 7.62
+                    },
+                    "total_infracciones_penales": {
+                        "24": 781,
+                        "25": 714
+                    },
+                    "tasa_x_1000_hab_total_penal": {
+                        "24": 26.12,
+                        "25": 23.87
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.63092,
+                    43.1681
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "municipio": "Erandio",
+                "year_columns": {
+                    "24": 2024,
+                    "25": 2025
+                },
+                "datos": {
+                    "homicidio_y_sus_formas": {
+                        "total": {
+                            "24": 2,
+                            "25": 1
+                        },
+                        "homicidio_doloso_asesinato_consumado_UE": {
+                            "24": null,
+                            "25": null
+                        },
+                        "homicidio_doloso_asesinato_tentativa_UE": {
+                            "24": 2,
+                            "25": null
+                        },
+                        "otras_infracciones_homicidio": {
+                            "24": null,
+                            "25": 1
+                        }
+                    },
+                    "lesiones": {
+                        "total": {
+                            "24": 130,
+                            "25": 81
+                        },
+                        "malos_tratos_en_el_ambito_familiar": {
+                            "24": 42,
+                            "25": 25
+                        },
+                        "lesiones": {
+                            "24": 80,
+                            "25": 50
+                        },
+                        "otras_infracciones_de_lesiones": {
+                            "24": 8,
+                            "25": 6
+                        }
+                    },
+                    "tortura_y_contra_la_integridad": {
+                        "total": {
+                            "24": 36,
+                            "25": 30
+                        },
+                        "malos_tratos_habituales_en_el_ambito_familiar": {
+                            "24": 34,
+                            "25": 29
+                        },
+                        "otras_infracciones_tortura_integridad": {
+                            "24": 2,
+                            "25": 1
+                        }
+                    },
+                    "contra_la_libertad_sexual_UE": {
+                        "total": {
+                            "24": 16,
+                            "25": 13
+                        },
+                        "agresion_sexual": {
+                            "24": 15,
+                            "25": 13
+                        },
+                        "otras_infracciones_contra_la_libertad_sexual": {
+                            "24": 1,
+                            "25": null
+                        }
+                    },
+                    "contra_el_patrimonio_y_el_orden_socioeconomico": {
+                        "total": {
+                            "24": 498,
+                            "25": 396
+                        },
+                        "hurto_UE": {
+                            "24": 266,
+                            "25": 184
+                        },
+                        "robo_con_fuerza_en_las_cosas_total": {
+                            "24": 78,
+                            "25": 79
+                        },
+                        "robo_con_fuerza_en_las_cosas_en_vivienda_UE_1": {
+                            "24": 28,
+                            "25": 37
+                        },
+                        "robo_con_fuerza_en_las_cosas_en_domicilio": {
+                            "24": 23,
+                            "25": 22
+                        },
+                        "robo_con_fuerza_en_otras_dependencias_anexos_vivienda": {
+                            "24": 5,
+                            "25": 15
+                        },
+                        "robo_con_fuerza_en_empresas": {
+                            "24": 6,
+                            "25": 4
+                        },
+                        "robo_con_fuerza_en_comercios_y_otros_esp_cerrados": {
+                            "24": 12,
+                            "25": 9
+                        },
+                        "robo_con_fuerza_en_las_cosas_en_otros_lugares": {
+                            "24": 32,
+                            "25": 29
+                        },
+                        "robo_con_violencia_o_intimidacion_UE": {
+                            "24": 49,
+                            "25": 15
+                        },
+                        "danos": {
+                            "24": 56,
+                            "25": 73
+                        },
+                        "sustraccion_de_vehiculos_a_motor_UE": {
+                            "24": 12,
+                            "25": 13
+                        },
+                        "estafa": {
+                            "24": 11,
+                            "25": 8
+                        },
+                        "otras_infracciones_contra_el_patrimonio": {
+                            "24": 26,
+                            "25": 24
+                        }
+                    },
+                    "contra_la_seguridad_colectiva": {
+                        "total": {
+                            "24": 48,
+                            "25": 57
+                        },
+                        "salud_publica_trafico_de_drogas_UE": {
+                            "24": 1,
+                            "25": 3
+                        },
+                        "conducir_bajo_influencia_alcohol_drogas": {
+                            "24": 33,
+                            "25": 27
+                        },
+                        "otras_infracciones_seguridad_colectiva": {
+                            "24": 14,
+                            "25": 27
+                        }
+                    },
+                    "otras_infracciones_penales": {
+                        "24": 103,
+                        "25": 93
+                    },
+                    "total_infracciones_presenciales": {
+                        "24": 833,
+                        "25": 671
+                    },
+                    "tasa_x_1000_hab_presenciales": {
+                        "24": 34.43,
+                        "25": 27.73
+                    },
+                    "delitos_informaticos": {
+                        "total": {
+                            "24": 257,
+                            "25": 265
+                        },
+                        "estafas_informaticas": {
+                            "24": 234,
+                            "25": 232
+                        },
+                        "ciberfalsificaciones": {
+                            "24": 11,
+                            "25": 16
+                        },
+                        "ciberamenazas_y_cibercoacciones": {
+                            "24": 5,
+                            "25": 4
+                        },
+                        "descubrimiento_y_revelacion_de_secretos": {
+                            "24": 1,
+                            "25": 1
+                        },
+                        "ciberdelitos_sexuales": {
+                            "24": 1,
+                            "25": 2
+                        },
+                        "ciberataques_informaticos": {
+                            "24": 1,
+                            "25": 4
+                        },
+                        "otros_delitos_informaticos": {
+                            "24": 4,
+                            "25": 6
+                        }
+                    },
+                    "total_ciberdelincuencia": {
+                        "24": 257,
+                        "25": 265
+                    },
+                    "tasa_x_1000_hab_ciberdelincuencia": {
+                        "24": 10.62,
+                        "25": 10.95
+                    },
+                    "total_infracciones_penales": {
+                        "24": 1090,
+                        "25": 936
+                    },
+                    "tasa_x_1000_hab_total_penal": {
+                        "24": 45.05,
+                        "25": 38.69
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.9340,
+                    43.3125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "municipio": "Galdakao",
+                "year_columns": {
+                    "24": 2024,
+                    "25": 2025
+                },
+                "datos": {
+                    "homicidio_y_sus_formas": {
+                        "total": {
+                            "24": null,
+                            "25": null
+                        },
+                        "homicidio_doloso_asesinato_consumado_UE": {
+                            "24": null,
+                            "25": null
+                        },
+                        "homicidio_doloso_asesinato_tentativa_UE": {
+                            "24": null,
+                            "25": null
+                        },
+                        "otras_infracciones_homicidio": {
+                            "24": null,
+                            "25": null
+                        }
+                    },
+                    "lesiones": {
+                        "total": {
+                            "24": 44,
+                            "25": 56
+                        },
+                        "malos_tratos_en_el_ambito_familiar": {
+                            "24": 13,
+                            "25": 22
+                        },
+                        "lesiones": {
+                            "24": 26,
+                            "25": 28
+                        },
+                        "otras_infracciones_de_lesiones": {
+                            "24": 5,
+                            "25": 6
+                        }
+                    },
+                    "tortura_y_contra_la_integridad": {
+                        "total": {
+                            "24": 25,
+                            "25": 23
+                        },
+                        "malos_tratos_habituales_en_el_ambito_familiar": {
+                            "24": 23,
+                            "25": 23
+                        },
+                        "otras_infracciones_tortura_integridad": {
+                            "24": 2,
+                            "25": null
+                        }
+                    },
+                    "contra_la_libertad_sexual_UE": {
+                        "total": {
+                            "24": 10,
+                            "25": 6
+                        },
+                        "agresion_sexual": {
+                            "24": 10,
+                            "25": 6
+                        },
+                        "otras_infracciones_contra_la_libertad_sexual": {
+                            "24": null,
+                            "25": null
+                        }
+                    },
+                    "contra_el_patrimonio_y_el_orden_socioeconomico": {
+                        "total": {
+                            "24": 361,
+                            "25": 439
+                        },
+                        "hurto_UE": {
+                            "24": 144,
+                            "25": 144
+                        },
+                        "robo_con_fuerza_en_las_cosas_total": {
+                            "24": 97,
+                            "25": 150
+                        },
+                        "robo_con_fuerza_en_las_cosas_en_vivienda_UE_1": {
+                            "24": 42,
+                            "25": 81
+                        },
+                        "robo_con_fuerza_en_las_cosas_en_domicilio": {
+                            "24": 19,
+                            "25": 31
+                        },
+                        "robo_con_fuerza_en_otras_dependencias_anexos_vivienda": {
+                            "24": 23,
+                            "25": 50
+                        },
+                        "robo_con_fuerza_en_empresas": {
+                            "24": 2,
+                            "25": 4
+                        },
+                        "robo_con_fuerza_en_comercios_y_otros_esp_cerrados": {
+                            "24": 14,
+                            "25": 11
+                        },
+                        "robo_con_fuerza_en_las_cosas_en_otros_lugares": {
+                            "24": 39,
+                            "25": 54
+                        },
+                        "robo_con_violencia_o_intimidacion_UE": {
+                            "24": 3,
+                            "25": 5
+                        },
+                        "danos": {
+                            "24": 81,
+                            "25": 90
+                        },
+                        "sustraccion_de_vehiculos_a_motor_UE": {
+                            "24": 8,
+                            "25": 10
+                        },
+                        "estafa": {
+                            "24": 12,
+                            "25": 21
+                        },
+                        "otras_infracciones_contra_el_patrimonio": {
+                            "24": 16,
+                            "25": 19
+                        }
+                    },
+                    "contra_la_seguridad_colectiva": {
+                        "total": {
+                            "24": 26,
+                            "25": 29
+                        },
+                        "salud_publica_trafico_de_drogas_UE": {
+                            "24": 1,
+                            "25": 3
+                        },
+                        "conducir_bajo_influencia_alcohol_drogas": {
+                            "24": 18,
+                            "25": 13
+                        },
+                        "otras_infracciones_seguridad_colectiva": {
+                            "24": 7,
+                            "25": 13
+                        }
+                    },
+                    "otras_infracciones_penales": {
+                        "24": 76,
+                        "25": 82
+                    },
+                    "total_infracciones_presenciales": {
+                        "24": 542,
+                        "25": 635
+                    },
+                    "tasa_x_1000_hab_presenciales": {
+                        "24": 21.85,
+                        "25": 25.60
+                    },
+                    "delitos_informaticos": {
+                        "total": {
+                            "24": 227,
+                            "25": 248
+                        },
+                        "estafas_informaticas": {
+                            "24": 211,
+                            "25": 215
+                        },
+                        "ciberfalsificaciones": {
+                            "24": 6,
+                            "25": 9
+                        },
+                        "ciberamenazas_y_cibercoacciones": {
+                            "24": 4,
+                            "25": 7
+                        },
+                        "descubrimiento_y_revelacion_de_secretos": {
+                            "24": 1,
+                            "25": 4
+                        },
+                        "ciberdelitos_sexuales": {
+                            "24": null,
+                            "25": 4
+                        },
+                        "ciberataques_informaticos": {
+                            "24": 1,
+                            "25": 1
+                        },
+                        "otros_delitos_informaticos": {
+                            "24": 4,
+                            "25": 8
+                        }
+                    },
+                    "total_ciberdelincuencia": {
+                        "24": 227,
+                        "25": 248
+                    },
+                    "tasa_x_1000_hab_ciberdelincuencia": {
+                        "24": 9.15,
+                        "25": 10.00
+                    },
+                    "total_infracciones_penales": {
+                        "24": 769,
+                        "25": 883
+                    },
+                    "tasa_x_1000_hab_total_penal": {
+                        "24": 31.00,
+                        "25": 35.60
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.8280,
+                    43.2480
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "municipio": "Leioa",
+                "year_columns": {
+                    "24": 2024,
+                    "25": 2025
+                },
+                "datos": {
+                    "homicidio_y_sus_formas": {
+                        "total": {
+                            "24": null,
+                            "25": null
+                        },
+                        "homicidio_doloso_asesinato_consumado_UE": {
+                            "24": null,
+                            "25": null
+                        },
+                        "homicidio_doloso_asesinato_tentativa_UE": {
+                            "24": null,
+                            "25": null
+                        },
+                        "otras_infracciones_homicidio": {
+                            "24": null,
+                            "25": null
+                        }
+                    },
+                    "lesiones": {
+                        "total": {
+                            "24": 48,
+                            "25": 46
+                        },
+                        "malos_tratos_en_el_ambito_familiar": {
+                            "24": 30,
+                            "25": 18
+                        },
+                        "lesiones": {
+                            "24": 15,
+                            "25": 25
+                        },
+                        "otras_infracciones_de_lesiones": {
+                            "24": 3,
+                            "25": 3
+                        }
+                    },
+                    "tortura_y_contra_la_integridad": {
+                        "total": {
+                            "24": 23,
+                            "25": 20
+                        },
+                        "malos_tratos_habituales_en_el_ambito_familiar": {
+                            "24": 20,
+                            "25": 17
+                        },
+                        "otras_infracciones_tortura_integridad": {
+                            "24": 3,
+                            "25": 3
+                        }
+                    },
+                    "contra_la_libertad_sexual_UE": {
+                        "total": {
+                            "24": 5,
+                            "25": 3
+                        },
+                        "agresion_sexual": {
+                            "24": 5,
+                            "25": 3
+                        },
+                        "otras_infracciones_contra_la_libertad_sexual": {
+                            "24": null,
+                            "25": null
+                        }
+                    },
+                    "contra_el_patrimonio_y_el_orden_socioeconomico": {
+                        "total": {
+                            "24": 353,
+                            "25": 395
+                        },
+                        "hurto_UE": {
+                            "24": 183,
+                            "25": 228
+                        },
+                        "robo_con_fuerza_en_las_cosas_total": {
+                            "24": 58,
+                            "25": 75
+                        },
+                        "robo_con_fuerza_en_las_cosas_en_vivienda_UE_1": {
+                            "24": 36,
+                            "25": 50
+                        },
+                        "robo_con_fuerza_en_las_cosas_en_domicilio": {
+                            "24": 33,
+                            "25": 32
+                        },
+                        "robo_con_fuerza_en_otras_dependencias_anexos_vivienda": {
+                            "24": 14,
+                            "25": 18
+                        },
+                        "robo_con_fuerza_en_empresas": {
+                            "24": null,
+                            "25": null
+                        },
+                        "robo_con_fuerza_en_comercios_y_otros_esp_cerrados": {
+                            "24": 7,
+                            "25": 14
+                        },
+                        "robo_con_fuerza_en_las_cosas_en_otros_lugares": {
+                            "24": 15,
+                            "25": 11
+                        },
+                        "robo_con_violencia_o_intimidacion_UE": {
+                            "24": 9,
+                            "25": 16
+                        },
+                        "danos": {
+                            "24": 49,
+                            "25": 40
+                        },
+                        "sustraccion_de_vehiculos_a_motor_UE": {
+                            "24": 15,
+                            "25": 6
+                        },
+                        "estafa": {
+                            "24": 18,
+                            "25": 10
+                        },
+                        "otras_infracciones_contra_el_patrimonio": {
+                            "24": 21,
+                            "25": 20
+                        }
+                    },
+                    "contra_la_seguridad_colectiva": {
+                        "total": {
+                            "24": 40,
+                            "25": 30
+                        },
+                        "salud_publica_trafico_de_drogas_UE": {
+                            "24": 1,
+                            "25": 2
+                        },
+                        "conducir_bajo_influencia_alcohol_drogas": {
+                            "24": 15,
+                            "25": 19
+                        },
+                        "otras_infracciones_seguridad_colectiva": {
+                            "24": 24,
+                            "25": 9
+                        }
+                    },
+                    "otras_infracciones_penales": {
+                        "24": 58,
+                        "25": 48
+                    },
+                    "total_infracciones_presenciales": {
+                        "24": 527,
+                        "25": 542
+                    },
+                    "tasa_x_1000_hab_presenciales": {
+                        "24": 16.24,
+                        "25": 16.70
+                    },
+                    "delitos_informaticos": {
+                        "total": {
+                            "24": 223,
+                            "25": 304
+                        },
+                        "estafas_informaticas": {
+                            "24": 201,
+                            "25": 263
+                        },
+                        "ciberfalsificaciones": {
+                            "24": 11,
+                            "25": 22
+                        },
+                        "ciberamenazas_y_cibercoacciones": {
+                            "24": 2,
+                            "25": 8
+                        },
+                        "descubrimiento_y_revelacion_de_secretos": {
+                            "24": 2,
+                            "25": null
+                        },
+                        "ciberdelitos_sexuales": {
+                            "24": null,
+                            "25": 1
+                        },
+                        "ciberataques_informaticos": {
+                            "24": 1,
+                            "25": 3
+                        },
+                        "otros_delitos_informaticos": {
+                            "24": 6,
+                            "25": 7
+                        }
+                    },
+                    "total_ciberdelincuencia": {
+                        "24": 223,
+                        "25": 304
+                    },
+                    "tasa_x_1000_hab_ciberdelincuencia": {
+                        "24": 6.87,
+                        "25": 9.37
+                    },
+                    "total_infracciones_penales": {
+                        "24": 750,
+                        "25": 846
+                    },
+                    "tasa_x_1000_hab_total_penal": {
+                        "24": 23.11,
+                        "25": 26.07
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.9640,
+                    43.3240
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "municipio": "Portugalete",
+                "year_columns": {
+                    "24": 2024,
+                    "25": 2025
+                },
+                "datos": {
+                    "homicidio_y_sus_formas": {
+                        "total": {
+                            "24": null,
+                            "25": 3
+                        },
+                        "homicidio_doloso_asesinato_consumado_UE": {
+                            "24": null,
+                            "25": null
+                        },
+                        "homicidio_doloso_asesinato_tentativa_UE": {
+                            "24": null,
+                            "25": 3
+                        },
+                        "otras_infracciones_homicidio": {
+                            "24": null,
+                            "25": null
+                        }
+                    },
+                    "lesiones": {
+                        "total": {
+                            "24": 99,
+                            "25": 157
+                        },
+                        "malos_tratos_en_el_ambito_familiar": {
+                            "24": 31,
+                            "25": 56
+                        },
+                        "lesiones": {
+                            "24": 63,
+                            "25": 95
+                        },
+                        "otras_infracciones_de_lesiones": {
+                            "24": 5,
+                            "25": 6
+                        }
+                    },
+                    "tortura_y_contra_la_integridad": {
+                        "total": {
+                            "24": 54,
+                            "25": 65
+                        },
+                        "malos_tratos_habituales_en_el_ambito_familiar": {
+                            "24": 51,
+                            "25": 57
+                        },
+                        "otras_infracciones_tortura_integridad": {
+                            "24": 3,
+                            "25": 8
+                        }
+                    },
+                    "contra_la_libertad_sexual_UE": {
+                        "total": {
+                            "24": 13,
+                            "25": 12
+                        },
+                        "agresion_sexual": {
+                            "24": 12,
+                            "25": 12
+                        },
+                        "otras_infracciones_contra_la_libertad_sexual": {
+                            "24": 1,
+                            "25": null
+                        }
+                    },
+                    "contra_el_patrimonio_y_el_orden_socioeconomico": {
+                        "total": {
+                            "24": 603,
+                            "25": 751
+                        },
+                        "hurto_UE": {
+                            "24": 363,
+                            "25": 436
+                        },
+                        "robo_con_fuerza_en_las_cosas_total": {
+                            "24": 89,
+                            "25": 127
+                        },
+                        "robo_con_fuerza_en_las_cosas_en_vivienda_UE_1": {
+                            "24": 38,
+                            "25": 43
+                        },
+                        "robo_con_fuerza_en_las_cosas_en_domicilio": {
+                            "24": 36,
+                            "25": 38
+                        },
+                        "robo_con_fuerza_en_otras_dependencias_anexos_vivienda": {
+                            "24": 2,
+                            "25": 5
+                        },
+                        "robo_con_fuerza_en_empresas": {
+                            "24": 2,
+                            "25": 2
+                        },
+                        "robo_con_fuerza_en_comercios_y_otros_esp_cerrados": {
+                            "24": 20,
+                            "25": 42
+                        },
+                        "robo_con_fuerza_en_las_cosas_en_otros_lugares": {
+                            "24": 29,
+                            "25": 40
+                        },
+                        "robo_con_violencia_o_intimidacion_UE": {
+                            "24": 39,
+                            "25": 48
+                        },
+                        "danos": {
+                            "24": 53,
+                            "25": 83
+                        },
+                        "sustraccion_de_vehiculos_a_motor_UE": {
+                            "24": 9,
+                            "25": 8
+                        },
+                        "estafa": {
+                            "24": 22,
+                            "25": 23
+                        },
+                        "otras_infracciones_contra_el_patrimonio": {
+                            "24": 28,
+                            "25": 26
+                        }
+                    },
+                    "contra_la_seguridad_colectiva": {
+                        "total": {
+                            "24": 26,
+                            "25": 13
+                        },
+                        "salud_publica_trafico_de_drogas_UE": {
+                            "24": 11,
+                            "25": 4
+                        },
+                        "conducir_bajo_influencia_alcohol_drogas": {
+                            "24": 6,
+                            "25": 3
+                        },
+                        "otras_infracciones_seguridad_colectiva": {
+                            "24": 9,
+                            "25": 6
+                        }
+                    },
+                    "otras_infracciones_penales": {
+                        "24": 85,
+                        "25": 141
+                    },
+                    "total_infracciones_presenciales": {
+                        "24": 880,
+                        "25": 1142
+                    },
+                    "tasa_x_1000_hab_presenciales": {
+                        "24": 19.51,
+                        "25": 25.32
+                    },
+                    "delitos_informaticos": {
+                        "total": {
+                            "24": 334,
+                            "25": 325
+                        },
+                        "estafas_informaticas": {
+                            "24": 305,
+                            "25": 285
+                        },
+                        "ciberfalsificaciones": {
+                            "24": 8,
+                            "25": 5
+                        },
+                        "ciberamenazas_y_cibercoacciones": {
+                            "24": 12,
+                            "25": 19
+                        },
+                        "descubrimiento_y_revelacion_de_secretos": {
+                            "24": 2,
+                            "25": 13
+                        },
+                        "ciberdelitos_sexuales": {
+                            "24": null,
+                            "25": 2
+                        },
+                        "ciberataques_informaticos": {
+                            "24": null,
+                            "25": null
+                        },
+                        "otros_delitos_informaticos": {
+                            "24": 7,
+                            "25": 1
+                        }
+                    },
+                    "total_ciberdelincuencia": {
+                        "24": 334,
+                        "25": 325
+                    },
+                    "tasa_x_1000_hab_ciberdelincuencia": {
+                        "24": 7.40,
+                        "25": 7.20
+                    },
+                    "total_infracciones_penales": {
+                        "24": 1214,
+                        "25": 1467
+                    },
+                    "tasa_x_1000_hab_total_penal": {
+                        "24": 26.91,
+                        "25": 32.52
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.0140,
+                    43.3180
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "municipio": "Santurtzi",
+                "year_columns": {
+                    "24": 2024,
+                    "25": 2025
+                },
+                "datos": {
+                    "homicidio_y_sus_formas": {
+                        "total": {
+                            "24": null,
+                            "25": null
+                        },
+                        "homicidio_doloso_asesinato_consumado_UE": {
+                            "24": null,
+                            "25": null
+                        },
+                        "homicidio_doloso_asesinato_tentativa_UE": {
+                            "24": null,
+                            "25": null
+                        },
+                        "otras_infracciones_homicidio": {
+                            "24": null,
+                            "25": null
+                        }
+                    },
+                    "lesiones": {
+                        "total": {
+                            "24": 114,
+                            "25": 110
+                        },
+                        "malos_tratos_en_el_ambito_familiar": {
+                            "24": 49,
+                            "25": 51
+                        },
+                        "lesiones": {
+                            "24": 64,
+                            "25": 54
+                        },
+                        "otras_infracciones_de_lesiones": {
+                            "24": 1,
+                            "25": 5
+                        }
+                    },
+                    "tortura_y_contra_la_integridad": {
+                        "total": {
+                            "24": 91,
+                            "25": 86
+                        },
+                        "malos_tratos_habituales_en_el_ambito_familiar": {
+                            "24": 86,
+                            "25": 83
+                        },
+                        "otras_infracciones_tortura_integridad": {
+                            "24": 5,
+                            "25": 3
+                        }
+                    },
+                    "contra_la_libertad_sexual_UE": {
+                        "total": {
+                            "24": 13,
+                            "25": 21
+                        },
+                        "agresion_sexual": {
+                            "24": 11,
+                            "25": 20
+                        },
+                        "otras_infracciones_contra_la_libertad_sexual": {
+                            "24": 2,
+                            "25": 1
+                        }
+                    },
+                    "contra_el_patrimonio_y_el_orden_socioeconomico": {
+                        "total": {
+                            "24": 463,
+                            "25": 430
+                        },
+                        "hurto_UE": {
+                            "24": 268,
+                            "25": 202
+                        },
+                        "robo_con_fuerza_en_las_cosas_total": {
+                            "24": 64,
+                            "25": 100
+                        },
+                        "robo_con_fuerza_en_las_cosas_en_vivienda_UE_1": {
+                            "24": 26,
+                            "25": 43
+                        },
+                        "robo_con_fuerza_en_las_cosas_en_domicilio": {
+                            "24": 17,
+                            "25": 32
+                        },
+                        "robo_con_fuerza_en_otras_dependencias_anexos_vivienda": {
+                            "24": 9,
+                            "25": 11
+                        },
+                        "robo_con_fuerza_en_empresas": {
+                            "24": 1,
+                            "25": 3
+                        },
+                        "robo_con_fuerza_en_comercios_y_otros_esp_cerrados": {
+                            "24": 12,
+                            "25": 29
+                        },
+                        "robo_con_fuerza_en_las_cosas_en_otros_lugares": {
+                            "24": 25,
+                            "25": 25
+                        },
+                        "robo_con_violencia_o_intimidacion_UE": {
+                            "24": 41,
+                            "25": 35
+                        },
+                        "danos": {
+                            "24": 54,
+                            "25": 49
+                        },
+                        "sustraccion_de_vehiculos_a_motor_UE": {
+                            "24": 7,
+                            "25": 2
+                        },
+                        "estafa": {
+                            "24": 11,
+                            "25": 27
+                        },
+                        "otras_infracciones_contra_el_patrimonio": {
+                            "24": 18,
+                            "25": 15
+                        }
+                    },
+                    "contra_la_seguridad_colectiva": {
+                        "total": {
+                            "24": 38,
+                            "25": 32
+                        },
+                        "salud_publica_trafico_de_drogas_UE": {
+                            "24": 5,
+                            "25": 11
+                        },
+                        "conducir_bajo_influencia_alcohol_drogas": {
+                            "24": 19,
+                            "25": 11
+                        },
+                        "otras_infracciones_seguridad_colectiva": {
+                            "24": 14,
+                            "25": 10
+                        }
+                    },
+                    "otras_infracciones_penales": {
+                        "24": 117,
+                        "25": 118
+                    },
+                    "total_infracciones_presenciales": {
+                        "24": 836,
+                        "25": 797
+                    },
+                    "tasa_x_1000_hab_presenciales": {
+                        "24": 18.22,
+                        "25": 17.36
+                    },
+                    "delitos_informaticos": {
+                        "total": {
+                            "24": 364,
+                            "25": 412
+                        },
+                        "estafas_informaticas": {
+                            "24": 320,
+                            "25": 376
+                        },
+                        "ciberfalsificaciones": {
+                            "24": 15,
+                            "25": 4
+                        },
+                        "ciberamenazas_y_cibercoacciones": {
+                            "24": 16,
+                            "25": 14
+                        },
+                        "descubrimiento_y_revelacion_de_secretos": {
+                            "24": 8,
+                            "25": 11
+                        },
+                        "ciberdelitos_sexuales": {
+                            "24": 2,
+                            "25": 1
+                        },
+                        "ciberataques_informaticos": {
+                            "24": 1,
+                            "25": null
+                        },
+                        "otros_delitos_informaticos": {
+                            "24": 2,
+                            "25": 6
+                        }
+                    },
+                    "total_ciberdelincuencia": {
+                        "24": 364,
+                        "25": 412
+                    },
+                    "tasa_x_1000_hab_ciberdelincuencia": {
+                        "24": 7.93,
+                        "25": 8.98
+                    },
+                    "total_infracciones_penales": {
+                        "24": 1200,
+                        "25": 1209
+                    },
+                    "tasa_x_1000_hab_total_penal": {
+                        "24": 26.15,
+                        "25": 26.35
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.0060,
+                    43.3700
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "municipio": "Sestao",
+                "year_columns": {
+                    "24": 2024,
+                    "25": 2025
+                },
+                "datos": {
+                    "homicidio_y_sus_formas": {
+                        "total": {
+                            "24": null,
+                            "25": 1
+                        },
+                        "homicidio_doloso_asesinato_consumado_UE": {
+                            "24": null,
+                            "25": null
+                        },
+                        "homicidio_doloso_asesinato_tentativa_UE": {
+                            "24": null,
+                            "25": 1
+                        },
+                        "otras_infracciones_homicidio": {
+                            "24": null,
+                            "25": null
+                        }
+                    },
+                    "lesiones": {
+                        "total": {
+                            "24": 127,
+                            "25": 181
+                        },
+                        "malos_tratos_en_el_ambito_familiar": {
+                            "24": 47,
+                            "25": 82
+                        },
+                        "lesiones": {
+                            "24": 77,
+                            "25": 88
+                        },
+                        "otras_infracciones_de_lesiones": {
+                            "24": 3,
+                            "25": 11
+                        }
+                    },
+                    "tortura_y_contra_la_integridad": {
+                        "total": {
+                            "24": 51,
+                            "25": 24
+                        },
+                        "malos_tratos_habituales_en_el_ambito_familiar": {
+                            "24": 50,
+                            "25": 20
+                        },
+                        "otras_infracciones_tortura_integridad": {
+                            "24": 1,
+                            "25": 4
+                        }
+                    },
+                    "contra_la_libertad_sexual_UE": {
+                        "total": {
+                            "24": 10,
+                            "25": 13
+                        },
+                        "agresion_sexual": {
+                            "24": 10,
+                            "25": 13
+                        },
+                        "otras_infracciones_contra_la_libertad_sexual": {
+                            "24": null,
+                            "25": null
+                        }
+                    },
+                    "contra_el_patrimonio_y_el_orden_socioeconomico": {
+                        "total": {
+                            "24": 488,
+                            "25": 493
+                        },
+                        "hurto_UE": {
+                            "24": 224,
+                            "25": 265
+                        },
+                        "robo_con_fuerza_en_las_cosas_total": {
+                            "24": 111,
+                            "25": 83
+                        },
+                        "robo_con_fuerza_en_las_cosas_en_vivienda_UE_1": {
+                            "24": 30,
+                            "25": 23
+                        },
+                        "robo_con_fuerza_en_las_cosas_en_domicilio": {
+                            "24": 26,
+                            "25": 16
+                        },
+                        "robo_con_fuerza_en_otras_dependencias_anexos_vivienda": {
+                            "24": 4,
+                            "25": 7
+                        },
+                        "robo_con_fuerza_en_empresas": {
+                            "24": 2,
+                            "25": null
+                        },
+                        "robo_con_fuerza_en_comercios_y_otros_esp_cerrados": {
+                            "24": 27,
+                            "25": 13
+                        },
+                        "robo_con_fuerza_en_las_cosas_en_otros_lugares": {
+                            "24": 52,
+                            "25": 47
+                        },
+                        "robo_con_violencia_o_intimidacion_UE": {
+                            "24": 17,
+                            "25": 29
+                        },
+                        "danos": {
+                            "24": 92,
+                            "25": 78
+                        },
+                        "sustraccion_de_vehiculos_a_motor_UE": {
+                            "24": 6,
+                            "25": 5
+                        },
+                        "estafa": {
+                            "24": 9,
+                            "25": 17
+                        },
+                        "otras_infracciones_contra_el_patrimonio": {
+                            "24": 29,
+                            "25": 16
+                        }
+                    },
+                    "contra_la_seguridad_colectiva": {
+                        "total": {
+                            "24": 29,
+                            "25": 30
+                        },
+                        "salud_publica_trafico_de_drogas_UE": {
+                            "24": 4,
+                            "25": 1
+                        },
+                        "conducir_bajo_influencia_alcohol_drogas": {
+                            "24": 12,
+                            "25": 12
+                        },
+                        "otras_infracciones_seguridad_colectiva": {
+                            "24": 13,
+                            "25": 17
+                        }
+                    },
+                    "otras_infracciones_penales": {
+                        "24": 107,
+                        "25": 84
+                    },
+                    "total_infracciones_presenciales": {
+                        "24": 812,
+                        "25": 826
+                    },
+                    "tasa_x_1000_hab_presenciales": {
+                        "24": 37.00,
+                        "25": 37.64
+                    },
+                    "delitos_informaticos": {
+                        "total": {
+                            "24": 298,
+                            "25": 262
+                        },
+                        "estafas_informaticas": {
+                            "24": 261,
+                            "25": 224
+                        },
+                        "ciberfalsificaciones": {
+                            "24": 11,
+                            "25": 10
+                        },
+                        "ciberamenazas_y_cibercoacciones": {
+                            "24": 15,
+                            "25": 15
+                        },
+                        "descubrimiento_y_revelacion_de_secretos": {
+                            "24": 5,
+                            "25": 5
+                        },
+                        "ciberdelitos_sexuales": {
+                            "24": 3,
+                            "25": null
+                        },
+                        "ciberataques_informaticos": {
+                            "24": null,
+                            "25": null
+                        },
+                        "otros_delitos_informaticos": {
+                            "24": 3,
+                            "25": 8
+                        }
+                    },
+                    "total_ciberdelincuencia": {
+                        "24": 298,
+                        "25": 262
+                    },
+                    "tasa_x_1000_hab_ciberdelincuencia": {
+                        "24": 10.73,
+                        "25": 9.43
+                    },
+                    "total_infracciones_penales": {
+                        "24": 1110,
+                        "25": 1088
+                    },
+                    "tasa_x_1000_hab_total_penal": {
+                        "24": 39.96,
+                        "25": 39.17
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.0130,
+                    43.3500
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "municipio": "Arrasate",
+                "year_columns": {
+                    "24": 2024,
+                    "25": 2025
+                },
+                "datos": {
+                    "homicidio_y_sus_formas": {
+                        "total": {
+                            "24": 2,
+                            "25": null
+                        },
+                        "homicidio_doloso_asesinato_consumado_UE": {
+                            "24": null,
+                            "25": null
+                        },
+                        "homicidio_doloso_asesinato_tentativa_UE": {
+                            "24": 1,
+                            "25": null
+                        },
+                        "otras_infracciones_homicidio": {
+                            "24": 1,
+                            "25": null
+                        }
+                    },
+                    "lesiones": {
+                        "total": {
+                            "24": 63,
+                            "25": 58
+                        },
+                        "malos_tratos_en_el_ambito_familiar": {
+                            "24": 21,
+                            "25": 26
+                        },
+                        "lesiones": {
+                            "24": 37,
+                            "25": 29
+                        },
+                        "otras_infracciones_de_lesiones": {
+                            "24": 5,
+                            "25": 3
+                        }
+                    },
+                    "tortura_y_contra_la_integridad": {
+                        "total": {
+                            "24": 14,
+                            "25": 13
+                        },
+                        "malos_tratos_habituales_en_el_ambito_familiar": {
+                            "24": 12,
+                            "25": 13
+                        },
+                        "otras_infracciones_tortura_integridad": {
+                            "24": 2,
+                            "25": null
+                        }
+                    },
+                    "contra_la_libertad_sexual_UE": {
+                        "total": {
+                            "24": 8,
+                            "25": 6
+                        },
+                        "agresion_sexual": {
+                            "24": 8,
+                            "25": 5
+                        },
+                        "otras_infracciones_contra_la_libertad_sexual": {
+                            "24": null,
+                            "25": 1
+                        }
+                    },
+                    "contra_el_patrimonio_y_el_orden_socioeconomico": {
+                        "total": {
+                            "24": 213,
+                            "25": 219
+                        },
+                        "hurto_UE": {
+                            "24": 105,
+                            "25": 97
+                        },
+                        "robo_con_fuerza_en_las_cosas_total": {
+                            "24": 50,
+                            "25": 39
+                        },
+                        "robo_con_fuerza_en_las_cosas_en_vivienda_UE_1": {
+                            "24": 22,
+                            "25": 22
+                        },
+                        "robo_con_fuerza_en_las_cosas_en_domicilio": {
+                            "24": 21,
+                            "25": 21
+                        },
+                        "robo_con_fuerza_en_otras_dependencias_anexos_vivienda": {
+                            "24": 1,
+                            "25": 1
+                        },
+                        "robo_con_fuerza_en_empresas": {
+                            "24": 6,
+                            "25": 3
+                        },
+                        "robo_con_fuerza_en_comercios_y_otros_esp_cerrados": {
+                            "24": 14,
+                            "25": 6
+                        },
+                        "robo_con_fuerza_en_las_cosas_en_otros_lugares": {
+                            "24": 8,
+                            "25": 8
+                        },
+                        "robo_con_violencia_o_intimidacion_UE": {
+                            "24": 5,
+                            "25": 7
+                        },
+                        "danos": {
+                            "24": 33,
+                            "25": 50
+                        },
+                        "sustraccion_de_vehiculos_a_motor_UE": {
+                            "24": 3,
+                            "25": 4
+                        },
+                        "estafa": {
+                            "24": 7,
+                            "25": 8
+                        },
+                        "otras_infracciones_contra_el_patrimonio": {
+                            "24": 10,
+                            "25": 14
+                        }
+                    },
+                    "contra_la_seguridad_colectiva": {
+                        "total": {
+                            "24": 25,
+                            "25": 25
+                        },
+                        "salud_publica_trafico_de_drogas_UE": {
+                            "24": 5,
+                            "25": 2
+                        },
+                        "conducir_bajo_influencia_alcohol_drogas": {
+                            "24": 11,
+                            "25": 12
+                        },
+                        "otras_infracciones_seguridad_colectiva": {
+                            "24": 9,
+                            "25": 11
+                        }
+                    },
+                    "otras_infracciones_penales": {
+                        "24": 68,
+                        "25": 97
+                    },
+                    "total_infracciones_presenciales": {
+                        "24": 393,
+                        "25": 418
+                    },
+                    "tasa_x_1000_hab_presenciales": {
+                        "24": 17.91,
+                        "25": 19.05
+                    },
+                    "delitos_informaticos": {
+                        "total": {
+                            "24": 172,
+                            "25": 156
+                        },
+                        "estafas_informaticas": {
+                            "24": 150,
+                            "25": 126
+                        },
+                        "ciberfalsificaciones": {
+                            "24": 8,
+                            "25": 15
+                        },
+                        "ciberamenazas_y_cibercoacciones": {
+                            "24": 4,
+                            "25": 8
+                        },
+                        "descubrimiento_y_revelacion_de_secretos": {
+                            "24": null,
+                            "25": 2
+                        },
+                        "ciberdelitos_sexuales": {
+                            "24": 1,
+                            "25": null
+                        },
+                        "ciberataques_informaticos": {
+                            "24": null,
+                            "25": null
+                        },
+                        "otros_delitos_informaticos": {
+                            "24": 9,
+                            "25": 5
+                        }
+                    },
+                    "total_ciberdelincuencia": {
+                        "24": 172,
+                        "25": 156
+                    },
+                    "tasa_x_1000_hab_ciberdelincuencia": {
+                        "24": 7.84,
+                        "25": 7.11
+                    },
+                    "total_infracciones_penales": {
+                        "24": 565,
+                        "25": 574
+                    },
+                    "tasa_x_1000_hab_total_penal": {
+                        "24": 25.75,
+                        "25": 26.16
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.4650,
+                    43.0820
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "municipio": "Eibar",
+                "year_columns": {
+                    "24": 2024,
+                    "25": 2025
+                },
+                "datos": {
+                    "homicidio_y_sus_formas": {
+                        "total": {
+                            "24": 1,
+                            "25": 1
+                        },
+                        "homicidio_doloso_asesinato_consumado_UE": {
+                            "24": null,
+                            "25": null
+                        },
+                        "homicidio_doloso_asesinato_tentativa_UE": {
+                            "24": null,
+                            "25": 1
+                        },
+                        "otras_infracciones_homicidio": {
+                            "24": 1,
+                            "25": null
+                        }
+                    },
+                    "lesiones": {
+                        "total": {
+                            "24": 108,
+                            "25": 121
+                        },
+                        "malos_tratos_en_el_ambito_familiar": {
+                            "24": 31,
+                            "25": 36
+                        },
+                        "lesiones": {
+                            "24": 70,
+                            "25": 79
+                        },
+                        "otras_infracciones_de_lesiones": {
+                            "24": 7,
+                            "25": 6
+                        }
+                    },
+                    "tortura_y_contra_la_integridad": {
+                        "total": {
+                            "24": 13,
+                            "25": 8
+                        },
+                        "malos_tratos_habituales_en_el_ambito_familiar": {
+                            "24": 11,
+                            "25": 7
+                        },
+                        "otras_infracciones_tortura_integridad": {
+                            "24": 2,
+                            "25": 1
+                        }
+                    },
+                    "contra_la_libertad_sexual_UE": {
+                        "total": {
+                            "24": 8,
+                            "25": 12
+                        },
+                        "agresion_sexual": {
+                            "24": 8,
+                            "25": 10
+                        },
+                        "otras_infracciones_contra_la_libertad_sexual": {
+                            "24": null,
+                            "25": 2
+                        }
+                    },
+                    "contra_el_patrimonio_y_el_orden_socioeconomico": {
+                        "total": {
+                            "24": 726,
+                            "25": 889
+                        },
+                        "hurto_UE": {
+                            "24": 350,
+                            "25": 271
+                        },
+                        "robo_con_fuerza_en_las_cosas_total": {
+                            "24": 198,
+                            "25": 411
+                        },
+                        "robo_con_fuerza_en_las_cosas_en_vivienda_UE_1": {
+                            "24": 114,
+                            "25": 279
+                        },
+                        "robo_con_fuerza_en_las_cosas_en_domicilio": {
+                            "24": 27,
+                            "25": 34
+                        },
+                        "robo_con_fuerza_en_otras_dependencias_anexos_vivienda": {
+                            "24": 187,
+                            "25": 245
+                        },
+                        "robo_con_fuerza_en_empresas": {
+                            "24": 2,
+                            "25": 4
+                        },
+                        "robo_con_fuerza_en_comercios_y_otros_esp_cerrados": {
+                            "24": 51,
+                            "25": 71
+                        },
+                        "robo_con_fuerza_en_las_cosas_en_otros_lugares": {
+                            "24": 31,
+                            "25": 57
+                        },
+                        "robo_con_violencia_o_intimidacion_UE": {
+                            "24": 13,
+                            "25": 17
+                        },
+                        "danos": {
+                            "24": 118,
+                            "25": 139
+                        },
+                        "sustraccion_de_vehiculos_a_motor_UE": {
+                            "24": 5,
+                            "25": null
+                        },
+                        "estafa": {
+                            "24": 8,
+                            "25": 9
+                        },
+                        "otras_infracciones_contra_el_patrimonio": {
+                            "24": 34,
+                            "25": 42
+                        }
+                    },
+                    "contra_la_seguridad_colectiva": {
+                        "total": {
+                            "24": 46,
+                            "25": 39
+                        },
+                        "salud_publica_trafico_de_drogas_UE": {
+                            "24": 10,
+                            "25": 12
+                        },
+                        "conducir_bajo_influencia_alcohol_drogas": {
+                            "24": 20,
+                            "25": 8
+                        },
+                        "otras_infracciones_seguridad_colectiva": {
+                            "24": 16,
+                            "25": 19
+                        }
+                    },
+                    "otras_infracciones_penales": {
+                        "24": 119,
+                        "25": 104
+                    },
+                    "total_infracciones_presenciales": {
+                        "24": 1021,
+                        "25": 1174
+                    },
+                    "tasa_x_1000_hab_presenciales": {
+                        "24": 37.76,
+                        "25": 43.42
+                    },
+                    "delitos_informaticos": {
+                        "total": {
+                            "24": 285,
+                            "25": 270
+                        },
+                        "estafas_informaticas": {
+                            "24": 262,
+                            "25": 226
+                        },
+                        "ciberfalsificaciones": {
+                            "24": 8,
+                            "25": 15
+                        },
+                        "ciberamenazas_y_cibercoacciones": {
+                            "24": 7,
+                            "25": 11
+                        },
+                        "descubrimiento_y_revelacion_de_secretos": {
+                            "24": 1,
+                            "25": null
+                        },
+                        "ciberdelitos_sexuales": {
+                            "24": null,
+                            "25": null
+                        },
+                        "ciberataques_informaticos": {
+                            "24": 1,
+                            "25": 2
+                        },
+                        "otros_delitos_informaticos": {
+                            "24": 6,
+                            "25": 16
+                        }
+                    },
+                    "total_ciberdelincuencia": {
+                        "24": 285,
+                        "25": 270
+                    },
+                    "tasa_x_1000_hab_ciberdelincuencia": {
+                        "24": 10.54,
+                        "25": 9.99
+                    },
+                    "total_infracciones_penales": {
+                        "24": 1306,
+                        "25": 1444
+                    },
+                    "tasa_x_1000_hab_total_penal": {
+                        "24": 48.30,
+                        "25": 53.40
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.4900,
+                    43.1830
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "municipio": "Errenteria",
+                "year_columns": {
+                    "24": 2024,
+                    "25": 2025
+                },
+                "datos": {
+                    "homicidio_y_sus_formas": {
+                        "total": {
+                            "24": 1,
+                            "25": null
+                        },
+                        "homicidio_doloso_asesinato_consumado_UE": {
+                            "24": null,
+                            "25": null
+                        },
+                        "homicidio_doloso_asesinato_tentativa_UE": {
+                            "24": 1,
+                            "25": null
+                        },
+                        "otras_infracciones_homicidio": {
+                            "24": null,
+                            "25": null
+                        }
+                    },
+                    "lesiones": {
+                        "total": {
+                            "24": 124,
+                            "25": 130
+                        },
+                        "malos_tratos_en_el_ambito_familiar": {
+                            "24": 31,
+                            "25": 47
+                        },
+                        "lesiones": {
+                            "24": 83,
+                            "25": 73
+                        },
+                        "otras_infracciones_de_lesiones": {
+                            "24": 10,
+                            "25": 10
+                        }
+                    },
+                    "tortura_y_contra_la_integridad": {
+                        "total": {
+                            "24": 62,
+                            "25": 31
+                        },
+                        "malos_tratos_habituales_en_el_ambito_familiar": {
+                            "24": 61,
+                            "25": 29
+                        },
+                        "otras_infracciones_tortura_integridad": {
+                            "24": 1,
+                            "25": 2
+                        }
+                    },
+                    "contra_la_libertad_sexual_UE": {
+                        "total": {
+                            "24": 16,
+                            "25": 11
+                        },
+                        "agresion_sexual": {
+                            "24": 15,
+                            "25": 9
+                        },
+                        "otras_infracciones_contra_la_libertad_sexual": {
+                            "24": 1,
+                            "25": 2
+                        }
+                    },
+                    "contra_el_patrimonio_y_el_orden_socioeconomico": {
+                        "total": {
+                            "24": 561,
+                            "25": 456
+                        },
+                        "hurto_UE": {
+                            "24": 262,
+                            "25": 223
+                        },
+                        "robo_con_fuerza_en_las_cosas_total": {
+                            "24": 116,
+                            "25": 69
+                        },
+                        "robo_con_fuerza_en_las_cosas_en_vivienda_UE_1": {
+                            "24": 39,
+                            "25": 33
+                        },
+                        "robo_con_fuerza_en_las_cosas_en_domicilio": {
+                            "24": 29,
+                            "25": 27
+                        },
+                        "robo_con_fuerza_en_otras_dependencias_anexos_vivienda": {
+                            "24": 10,
+                            "25": 6
+                        },
+                        "robo_con_fuerza_en_empresas": {
+                            "24": 2,
+                            "25": 2
+                        },
+                        "robo_con_fuerza_en_comercios_y_otros_esp_cerrados": {
+                            "24": 18,
+                            "25": 13
+                        },
+                        "robo_con_fuerza_en_las_cosas_en_otros_lugares": {
+                            "24": 57,
+                            "25": 21
+                        },
+                        "robo_con_violencia_o_intimidacion_UE": {
+                            "24": 16,
+                            "25": 27
+                        },
+                        "danos": {
+                            "24": 117,
+                            "25": 76
+                        },
+                        "sustraccion_de_vehiculos_a_motor_UE": {
+                            "24": 9,
+                            "25": 5
+                        },
+                        "estafa": {
+                            "24": 9,
+                            "25": 30
+                        },
+                        "otras_infracciones_contra_el_patrimonio": {
+                            "24": 32,
+                            "25": 26
+                        }
+                    },
+                    "contra_la_seguridad_colectiva": {
+                        "total": {
+                            "24": 27,
+                            "25": 35
+                        },
+                        "salud_publica_trafico_de_drogas_UE": {
+                            "24": 10,
+                            "25": 15
+                        },
+                        "conducir_bajo_influencia_alcohol_drogas": {
+                            "24": 5,
+                            "25": 7
+                        },
+                        "otras_infracciones_seguridad_colectiva": {
+                            "24": 12,
+                            "25": 13
+                        }
+                    },
+                    "otras_infracciones_penales": {
+                        "24": 138,
+                        "25": 117
+                    },
+                    "total_infracciones_presenciales": {
+                        "24": 929,
+                        "25": 780
+                    },
+                    "tasa_x_1000_hab_presenciales": {
+                        "24": 23.35,
+                        "25": 19.60
+                    },
+                    "delitos_informaticos": {
+                        "total": {
+                            "24": 402,
+                            "25": 431
+                        },
+                        "estafas_informaticas": {
+                            "24": 362,
+                            "25": 402
+                        },
+                        "ciberfalsificaciones": {
+                            "24": 13,
+                            "25": 4
+                        },
+                        "ciberamenazas_y_cibercoacciones": {
+                            "24": 8,
+                            "25": 10
+                        },
+                        "descubrimiento_y_revelacion_de_secretos": {
+                            "24": 7,
+                            "25": 3
+                        },
+                        "ciberdelitos_sexuales": {
+                            "24": 2,
+                            "25": 3
+                        },
+                        "ciberataques_informaticos": {
+                            "24": 3,
+                            "25": 1
+                        },
+                        "otros_delitos_informaticos": {
+                            "24": 7,
+                            "25": 8
+                        }
+                    },
+                    "total_ciberdelincuencia": {
+                        "24": 402,
+                        "25": 431
+                    },
+                    "tasa_x_1000_hab_ciberdelincuencia": {
+                        "24": 10.10,
+                        "25": 10.83
+                    },
+                    "total_infracciones_penales": {
+                        "24": 1331,
+                        "25": 1211
+                    },
+                    "tasa_x_1000_hab_total_penal": {
+                        "24": 33.45,
+                        "25": 30.43
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.9840,
+                    43.3120
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "municipio": "Hernani",
+                "year_columns": {
+                    "24": 2024,
+                    "25": 2025
+                },
+                "datos": {
+                    "homicidio_y_sus_formas": {
+                        "total": {
+                            "24": 4,
+                            "25": null
+                        },
+                        "homicidio_doloso_asesinato_consumado_UE": {
+                            "24": null,
+                            "25": null
+                        },
+                        "homicidio_doloso_asesinato_tentativa_UE": {
+                            "24": 4,
+                            "25": null
+                        },
+                        "otras_infracciones_homicidio": {
+                            "24": null,
+                            "25": null
+                        }
+                    },
+                    "lesiones": {
+                        "total": {
+                            "24": 59,
+                            "25": 66
+                        },
+                        "malos_tratos_en_el_ambito_familiar": {
+                            "24": 26,
+                            "25": 16
+                        },
+                        "lesiones": {
+                            "24": 29,
+                            "25": 43
+                        },
+                        "otras_infracciones_de_lesiones": {
+                            "24": 4,
+                            "25": 7
+                        }
+                    },
+                    "tortura_y_contra_la_integridad": {
+                        "total": {
+                            "24": 9,
+                            "25": 10
+                        },
+                        "malos_tratos_habituales_en_el_ambito_familiar": {
+                            "24": 9,
+                            "25": 9
+                        },
+                        "otras_infracciones_tortura_integridad": {
+                            "24": null,
+                            "25": 9
+                        }
+                    },
+                    "contra_la_libertad_sexual_UE": {
+                        "total": {
+                            "24": 2,
+                            "25": 5
+                        },
+                        "agresion_sexual": {
+                            "24": 2,
+                            "25": 5
+                        },
+                        "otras_infracciones_contra_la_libertad_sexual": {
+                            "24": null,
+                            "25": null
+                        }
+                    },
+                    "contra_el_patrimonio_y_el_orden_socioeconomico": {
+                        "total": {
+                            "24": 254,
+                            "25": 289
+                        },
+                        "hurto_UE": {
+                            "24": 131,
+                            "25": 164
+                        },
+                        "robo_con_fuerza_en_las_cosas_total": {
+                            "24": 71,
+                            "25": 55
+                        },
+                        "robo_con_fuerza_en_las_cosas_en_vivienda_UE_1": {
+                            "24": 31,
+                            "25": 23
+                        },
+                        "robo_con_fuerza_en_las_cosas_en_domicilio": {
+                            "24": 26,
+                            "25": 22
+                        },
+                        "robo_con_fuerza_en_otras_dependencias_anexos_vivienda": {
+                            "24": 5,
+                            "25": 1
+                        },
+                        "robo_con_fuerza_en_empresas": {
+                            "24": 5,
+                            "25": 3
+                        },
+                        "robo_con_fuerza_en_comercios_y_otros_esp_cerrados": {
+                            "24": 18,
+                            "25": 7
+                        },
+                        "robo_con_fuerza_en_las_cosas_en_otros_lugares": {
+                            "24": 17,
+                            "25": 22
+                        },
+                        "robo_con_violencia_o_intimidacion_UE": {
+                            "24": 6,
+                            "25": 9
+                        },
+                        "danos": {
+                            "24": 29,
+                            "25": 33
+                        },
+                        "sustraccion_de_vehiculos_a_motor_UE": {
+                            "24": 3,
+                            "25": 2
+                        },
+                        "estafa": {
+                            "24": 4,
+                            "25": 9
+                        },
+                        "otras_infracciones_contra_el_patrimonio": {
+                            "24": 10,
+                            "25": 17
+                        }
+                    },
+                    "contra_la_seguridad_colectiva": {
+                        "total": {
+                            "24": 36,
+                            "25": 40
+                        },
+                        "salud_publica_trafico_de_drogas_UE": {
+                            "24": 3,
+                            "25": 5
+                        },
+                        "conducir_bajo_influencia_alcohol_drogas": {
+                            "24": 12,
+                            "25": 20
+                        },
+                        "otras_infracciones_seguridad_colectiva": {
+                            "24": 21,
+                            "25": 15
+                        }
+                    },
+                    "otras_infracciones_penales": {
+                        "24": 53,
+                        "25": 62
+                    },
+                    "total_infracciones_presenciales": {
+                        "24": 417,
+                        "25": 472
+                    },
+                    "tasa_x_1000_hab_presenciales": {
+                        "24": 20.39,
+                        "25": 23.08
+                    },
+                    "delitos_informaticos": {
+                        "total": {
+                            "24": 140,
+                            "25": 175
+                        },
+                        "estafas_informaticas": {
+                            "24": 122,
+                            "25": 158
+                        },
+                        "ciberfalsificaciones": {
+                            "24": 5,
+                            "25": 6
+                        },
+                        "ciberamenazas_y_cibercoacciones": {
+                            "24": 5,
+                            "25": 4
+                        },
+                        "descubrimiento_y_revelacion_de_secretos": {
+                            "24": 1,
+                            "25": 3
+                        },
+                        "ciberdelitos_sexuales": {
+                            "24": null,
+                            "25": null
+                        },
+                        "ciberataques_informaticos": {
+                            "24": null,
+                            "25": null
+                        },
+                        "otros_delitos_informaticos": {
+                            "24": 7,
+                            "25": 4
+                        }
+                    },
+                    "total_ciberdelincuencia": {
+                        "24": 140,
+                        "25": 175
+                    },
+                    "tasa_x_1000_hab_ciberdelincuencia": {
+                        "24": 6.85,
+                        "25": 8.56
+                    },
+                    "total_infracciones_penales": {
+                        "24": 557,
+                        "25": 647
+                    },
+                    "tasa_x_1000_hab_total_penal": {
+                        "24": 27.24,
+                        "25": 31.64
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.0150,
+                    43.3080
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "municipio": "Zarautz",
+                "year_columns": {
+                    "24": 2024,
+                    "25": 2025
+                },
+                "datos": {
+                    "homicidio_y_sus_formas": {
+                        "total": {
+                            "24": null,
+                            "25": null
+                        },
+                        "homicidio_doloso_asesinato_consumado_UE": {
+                            "24": null,
+                            "25": null
+                        },
+                        "homicidio_doloso_asesinato_tentativa_UE": {
+                            "24": null,
+                            "25": null
+                        },
+                        "otras_infracciones_homicidio": {
+                            "24": null,
+                            "25": null
+                        }
+                    },
+                    "lesiones": {
+                        "total": {
+                            "24": 58,
+                            "25": 51
+                        },
+                        "malos_tratos_en_el_ambito_familiar": {
+                            "24": 16,
+                            "25": 20
+                        },
+                        "lesiones": {
+                            "24": 36,
+                            "25": 28
+                        },
+                        "otras_infracciones_de_lesiones": {
+                            "24": 6,
+                            "25": 3
+                        }
+                    },
+                    "tortura_y_contra_la_integridad": {
+                        "total": {
+                            "24": 5,
+                            "25": 4
+                        },
+                        "malos_tratos_habituales_en_el_ambito_familiar": {
+                            "24": 5,
+                            "25": 2
+                        },
+                        "otras_infracciones_tortura_integridad": {
+                            "24": null,
+                            "25": 2
+                        }
+                    },
+                    "contra_la_libertad_sexual_UE": {
+                        "total": {
+                            "24": 6,
+                            "25": 3
+                        },
+                        "agresion_sexual": {
+                            "24": 5,
+                            "25": 3
+                        },
+                        "otras_infracciones_contra_la_libertad_sexual": {
+                            "24": 1,
+                            "25": null
+                        }
+                    },
+                    "contra_el_patrimonio_y_el_orden_socioeconomico": {
+                        "total": {
+                            "24": 295,
+                            "25": 298
+                        },
+                        "hurto_UE": {
+                            "24": 161,
+                            "25": 168
+                        },
+                        "robo_con_fuerza_en_las_cosas_total": {
+                            "24": 60,
+                            "25": 52
+                        },
+                        "robo_con_fuerza_en_las_cosas_en_vivienda_UE_1": {
+                            "24": 36,
+                            "25": 32
+                        },
+                        "robo_con_fuerza_en_las_cosas_en_domicilio": {
+                            "24": 28,
+                            "25": 30
+                        },
+                        "robo_con_fuerza_en_otras_dependencias_anexos_vivienda": {
+                            "24": 8,
+                            "25": 2
+                        },
+                        "robo_con_fuerza_en_empresas": {
+                            "24": 4,
+                            "25": 1
+                        },
+                        "robo_con_fuerza_en_comercios_y_otros_esp_cerrados": {
+                            "24": 12,
+                            "25": 5
+                        },
+                        "robo_con_fuerza_en_las_cosas_en_otros_lugares": {
+                            "24": 8,
+                            "25": 14
+                        },
+                        "robo_con_violencia_o_intimidacion_UE": {
+                            "24": 6,
+                            "25": 6
+                        },
+                        "danos": {
+                            "24": 51,
+                            "25": 46
+                        },
+                        "sustraccion_de_vehiculos_a_motor_UE": {
+                            "24": 3,
+                            "25": 3
+                        },
+                        "estafa": {
+                            "24": 6,
+                            "25": 15
+                        },
+                        "otras_infracciones_contra_el_patrimonio": {
+                            "24": 8,
+                            "25": 8
+                        }
+                    },
+                    "contra_la_seguridad_colectiva": {
+                        "total": {
+                            "24": 25,
+                            "25": 23
+                        },
+                        "salud_publica_trafico_de_drogas_UE": {
+                            "24": 1,
+                            "25": 2
+                        },
+                        "conducir_bajo_influencia_alcohol_drogas": {
+                            "24": 10,
+                            "25": 11
+                        },
+                        "otras_infracciones_seguridad_colectiva": {
+                            "24": 14,
+                            "25": 10
+                        }
+                    },
+                    "otras_infracciones_penales": {
+                        "24": 49,
+                        "25": 41
+                    },
+                    "total_infracciones_presenciales": {
+                        "24": 438,
+                        "25": 420
+                    },
+                    "tasa_x_1000_hab_presenciales": {
+                        "24": 18.77,
+                        "25": 18.00
+                    },
+                    "delitos_informaticos": {
+                        "total": {
+                            "24": 201,
+                            "25": 189
+                        },
+                        "estafas_informaticas": {
+                            "24": 183,
+                            "25": 174
+                        },
+                        "ciberfalsificaciones": {
+                            "24": 2,
+                            "25": 4
+                        },
+                        "ciberamenazas_y_cibercoacciones": {
+                            "24": 4,
+                            "25": 3
+                        },
+                        "descubrimiento_y_revelacion_de_secretos": {
+                            "24": 2,
+                            "25": 2
+                        },
+                        "ciberdelitos_sexuales": {
+                            "24": 2,
+                            "25": 1
+                        },
+                        "ciberataques_informaticos": {
+                            "24": null,
+                            "25": null
+                        },
+                        "otros_delitos_informaticos": {
+                            "24": 8,
+                            "25": 5
+                        }
+                    },
+                    "total_ciberdelincuencia": {
+                        "24": 201,
+                        "25": 189
+                    },
+                    "tasa_x_1000_hab_ciberdelincuencia": {
+                        "24": 8.61,
+                        "25": 8.10
+                    },
+                    "total_infracciones_penales": {
+                        "24": 639,
+                        "25": 609
+                    },
+                    "tasa_x_1000_hab_total_penal": {
+                        "24": 27.39,
+                        "25": 26.10
+                    }
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.1670,
+                    43.2640
+                ]
+            }
+        }
+    ]
+}
