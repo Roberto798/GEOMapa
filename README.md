@@ -23,9 +23,11 @@ Aplikazioa egokia da analisi estatistikorako, hezkuntza-inguruneetarako eta admi
 - **Font Awesome**: Ikono grafikoak
 
 ### Kanpoko baliabideak
+```html
 <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+```
 
 ## 3. HTML Egitura
 
@@ -37,20 +39,23 @@ Aplikazioa egokia da analisi estatistikorako, hezkuntza-inguruneetarako eta admi
 - **categoryFilter**: Delitu kategorien hautaketa
 
 ### Maparen hasieraketa
+```html
 let map = L.map('map').setView([43.235, -2.885], 9);
 
-    Hasierako kokapena: Euskadi ingurua
+Hasierako kokapena: Euskadi ingurua
 
-    Zoom maila: 9
+Zoom maila: 9
 
-    Oinarri mapa: OpenStreetMap
+Oinarri mapa: OpenStreetMap
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© OpenStreetMap'
 }).addTo(map);
+```
 ### Datuen Karga (GeoJSON)
 
 Aplikazioak kriminalitate-datu geografikoak GeoJSON fitxategi batetik kargatzen ditu modu asinkronoan.
+```html
 
 fetch("data.geojson")
     .then(r => r.json())
@@ -58,7 +63,7 @@ fetch("data.geojson")
         geoData = data;
         applyFilters();
     });
-
+```
 
 data.geojson fitxategiak udalerri bakoitzeko informazioa dauka
 
@@ -67,28 +72,30 @@ Datuak geoData aldagaian gordetzen dira
 Karga amaitzean, iragazkiak automatikoki aplikatzen dira
 
 ### Utilitate Funtzioak
-val(v)
+**val(v)**
 
 Balioa null edo undefined bada, 0 itzultzen du, erroreak saihesteko.
+
+```html
 
 const val = v => v ?? 0;
 
 getTotal(feature, category, year)
-
+```
 Aukeratutako urte eta kategoriaren araberako delitu kopuru totala kalkulatzen du.
-
+```html
 function getTotal(f, cat, year) {
     if (cat === "all")
         return val(f.properties.datos.total_infracciones_penales[year]);
     return val(f.properties.datos[cat]?.total?.[year]);
 }
-
+```
 
 Kategoria orokorra edo espezifikoa onartzen du
 
 GeoJSON egiturara egokituta dago
 
-getColor(value)
+**getColor(value)**
 
 Delitu kopuruaren arabera kolore bat esleitzen du.
 
@@ -99,6 +106,7 @@ Balioa	Kolorea
 > 100	Laranja
 > 50	Horia
 ≤ 50	Hori argia
+```html
 function getColor(d) {
     return d > 800 ? '#800026' :
            d > 500 ? '#BD0026' :
@@ -107,25 +115,27 @@ function getColor(d) {
            d > 50  ? '#FD8D3C' :
                      '#FEB24C';
 }
+```
 
-getRadius(value)
+**getRadius(value)**
 
 Zirkulu-markatzaileen tamaina kalkulatzen du, delitu kopuruaren arabera.
-
+```html
 function getRadius(d) {
     return Math.max(6, Math.sqrt(d) / 2);
 }
+```
 
 ### Maparen Renderizatzea
-render(data, year, category)
+**render(data, year, category)**
 
 Funtzio honek mapa eguneratzen du hautatutako iragazkien arabera.
-
+```html
 function render(data, year, category) {
     if (geoLayer) map.removeLayer(geoLayer);
     if (legend) map.removeControl(legend);
 
-    geoLayer = L.geoJSON(data, {
+geoLayer = L.geoJSON(data, {
         pointToLayer: (f, latlng) => {
             const total = getTotal(f, category, year);
             return L.circleMarker(latlng, {
@@ -141,9 +151,9 @@ function render(data, year, category) {
         }
     }).addTo(map);
 
-    buildLegend();
+buildLegend();
 }
-
+```
 
 Eginkizunak:
 
@@ -158,10 +168,10 @@ Popup-ak gehitzea
 Legenda sortzea
 
 ### Popup-en Eraikuntza
-buildPopup(feature, year, category)
+**buildPopup(feature, year, category)**
 
 Udalerri bakoitzeko informazio zehatza erakusten duen popup-a sortzen du.
-
+```html
 function buildPopup(f, year, category) {
     const p = f.properties;
     let html = `<h3>${p.municipio}</h3>
@@ -191,7 +201,7 @@ function buildPopup(f, year, category) {
     html += `</table>`;
     return html;
 }
-
+```
 
 Popup-ak honako informazioa eskaintzen du:
 
@@ -204,10 +214,10 @@ Delitu kopuru orokorra
 Kategoriaren azpidatuak taula moduan
 
 ### Legenda Dinamikoa
-buildLegend()
+**buildLegend()**
 
 Maparen behe-eskuinean legenda bisuala gehitzen du.
-
+```html
 function buildLegend() {
     legend = L.control({ position: 'bottomright' });
 
@@ -226,12 +236,12 @@ function buildLegend() {
 
     legend.addTo(map);
 }
-
+```
 ### Iragazkien Sistema
-applyFilters()
+**applyFilters()**
 
 Erabiltzaileak hautatutako iragazkiak aplikatzen ditu.
-
+```html
 function applyFilters() {
     const year = yearFilter.value;
     const category = categoryFilter.value;
@@ -243,6 +253,7 @@ function applyFilters() {
         )
     }, year, category);
 }
+```
 
 
 Urtea eta kategoria kontuan hartzen ditu
@@ -252,13 +263,13 @@ Datuak filtratu eta mapa eguneratzen du
 ### Mugikorretarako Egokitzapena (Responsive)
 
 Aplikazioa pantaila txikietara egokitzen da.
-
+```html
 toggleFilters.onclick = () =>
     sidebar.classList.toggle("hidden");
 
 if (innerWidth < 700)
     toggleFilters.style.display = "block";
-
+```
 
 Sidebar-a ezkutatzen da mugikorretan
 
