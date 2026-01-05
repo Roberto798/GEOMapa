@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mapa de Criminalidad Dashboard Leaflet</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="Index.css" />
+</head>
+
+<body>
+
+    <div id="toggleFilters"><i class="fa fa-filter"></i></div>
+
+    <div id="sidebar">
+        <h2>Adierazle penalak</h2>
+
+        <label>Urtea</label>
+        <select id="yearFilter">
+            <option value="24">2024</option>
+            <option value="25">2025</option>
+        </select>
+
+        <label>Kategoria</label>
+        <select id="categoryFilter">
+            <option value="all">Total penala</option>
+            <option value="lesiones">Lesioak</option>
+            <option value="homicidio_y_sus_formas">Homizidioak</option>
+            <option value="tortura_y_contra_la_integridad">Tortura</option>
+            <option value="contra_la_libertad_sexual_UE">Askatasun sexuala</option>
+            <option value="contra_el_patrimonio_y_el_orden_socioeconomico">Patrimonioa</option>
+            <option value="delitos_informaticos">Ziberdelituak</option>
+        </select>
+
+        <button onclick="applyFilters()">Filtroak aplikatu</button>
+    </div>
+
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <script>
+        let map = L.map('map').setView([43.235, -2.885], 9);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap'
+        }).addTo(map);
+
+        let geoData, geoLayer, legend;
+
+        /*
+        Datuak kargatu
+        */
+        fetch("data.geojson")
+            .then(r => r.json())
+            .then(data => {
+                geoData = data;
+                applyFilters();
+            });
+
+        /*
+        UTILIDADEAK
+         */
+        const val = v => v ?? 0;
+
+        function getTotal(f, cat, year) {
+            if (cat === "all") return val(f.properties.datos.total_infracciones_penales[year]);
+            return val(f.properties.datos[cat]?.total?.[year]);
+        }
+
+        function getColor(d) {
+            return d > 800 ? '#800026' :
+                d > 500 ? '#BD0026' :
+                    d > 200 ? '#E31A1C' :
+                        d > 100 ? '#FC4E2A' :
+                            d > 50 ? '#FD8D3C' :
+                                '#FEB24C';
+        }
+
+        function getRadius(d) {
+            return Math.max(6, Math.sqrt(d) / 2);
+        }
+
+        /*
+        RENDER MAPA
+         */
+        function render(data, year, category) {
+            if (geoLayer) map.removeLayer(geoLayer);
+            if (legend) map.removeControl(legend);
+
+            geoLayer = L.geoJSON(data, {
+                pointToLayer: (f, latlng) => {
+                    const total = getTotal(f, category, year);
+                    return L.circleMarker(latlng, {
+                        radius: getRadius(total),
+                        fillColor: getColor(total),
+                        color: "#222",
+                        weight: 1,
+                        fillOpacity: .85
+                    });
+                },
+                onEachFeature: (f, l) => {
+                    l.bindPopup(buildPopup(f, year, category), { maxWidth: 350 });
+                }
+            }).addTo(map);
+
+            buildLegend();
+        }
+
+        /*
+        POPUP
+         */
+        function buildPopup(f, year, category) {
+            const p = f.properties;
+            let html = `<h3>${p.municipio}</h3>
+    <b>Urtea:</b> ${p.year_columns[year]}<hr>`;
+
+            if (category === "all") {
+                html += `
+        <table class="popup-table">
+            <tr><td>Total penala</td><td>${p.datos.total_infracciones_penales[year]}</td></tr>
+            <tr><td>Tasa x 1000 Biz</td><td>${p.datos.tasa_x_1000_hab_total_penal[year]}</td></tr>
+        </table>`;
+                return html;
+            }
+
+            const cat = p.datos[category];
+            html += `<b>Total Kategoria:</b> ${val(cat.total?.[year])}<br><br>`;
+            html += `<table class="popup-table">`;
+
+            Object.keys(cat).forEach(k => {
+                if (k === "total") return;
+                html += `<tr>
+            <td>${k.replaceAll("_", " ")}</td>
+            <td>${val(cat[k][year])}</td>
+        </tr>`;
+            });
+
+            html += `</table>`;
+            return html;
+        }
+
+        /*
+        LEYENDA
+         */
+        function buildLegend() {
+            legend = L.control({ position: 'bottomright' });
+
+            legend.onAdd = () => {
+                const div = L.DomUtil.create('div', 'legend');
+                const grades = [0, 50, 100, 200, 500, 800];
+
+                div.innerHTML = "<b>Infrakzio totalak</b><br>";
+                grades.forEach((g, i) => {
+                    div.innerHTML +=
+                        `<i style="background:${getColor(g + 1)}"></i>
+            ${g}${grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+'}`;
+                });
+                return div;
+            };
+
+            legend.addTo(map);
+        }
+
+        /*
+        FILTROAK
+        */
+        function applyFilters() {
+            const year = yearFilter.value;
+            const category = categoryFilter.value;
+
+            render({
+                type: "FeatureCollection",
+                features: geoData.features.filter(f =>
+                    category === "all" || f.properties.datos[category]
+                )
+            }, year, category);
+        }
+
+        /*
+        MOBILE
+        */
+        toggleFilters.onclick = () =>
+            sidebar.classList.toggle("hidden");
+
+        if (innerWidth < 700)
+            toggleFilters.style.display = "block";
+    </script>
+
+</body>
+
+</html>

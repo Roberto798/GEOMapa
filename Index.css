@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+#map {
+    height: 100vh;
+    width: 100%;
+}
+
+/* SIDEBAR */
+#sidebar {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 300px;
+    background: white;
+    padding: 15px;
+    border-radius: 14px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .25);
+    z-index: 1000;
+}
+
+#sidebar h2 {
+    margin: 0 0 10px;
+    text-align: center;
+}
+
+select,
+button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #0078ff;
+    color: white;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #005fcc;
+}
+
+/* LEYENDA */
+.legend {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .2);
+    line-height: 18px;
+}
+
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: .85;
+}
+
+/* POPUP */
+.popup-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.popup-table td {
+    padding: 4px;
+    border-bottom: 1px solid #ddd;
+    font-size: 13px;
+}
+
+.popup-table tr:last-child td {
+    border-bottom: none;
+}
+
+/* MOBILE */
+#toggleFilters {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #0078ff;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    display: none;
+    z-index: 1500;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
